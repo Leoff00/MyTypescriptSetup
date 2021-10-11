@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "target": "ES2017",
+        "lib": ["ES2017"],
+        "module": "CommonJS",
+        "rootDir": "./src",
+        "typeRoots": ["./node_modules/@types"],
+        "resolveJsonModule": true,
+        "allowJs": true,
+        "outDir": "./dist",
+        "removeComments": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "@exf/*": ["./src/exFile/*"]
+        }
+    }
+}
